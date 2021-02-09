@@ -22,6 +22,7 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+<<<<<<< HEAD
         <div class="ml-4 text-lg leading-7 font-semibold"><h1 class="text-gray-900 dark:text-white">Ivanka Mauludi Juniar</h1></div>
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -34,6 +35,9 @@
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
                     @endauth
+=======
+            <div class="ml-4 text-lg leading-7 font-semibold"><h1 class="text-gray-900 dark:text-white">Ivanka Mauludi Juniar</h1></div>
+>>>>>>> c6483a1a4b6be785ef6a9c831a6e7e2022171ea1
                 </div>
             @endif
 
